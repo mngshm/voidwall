@@ -1,4 +1,3 @@
-# voidlinux-wallpapers
 a Collection of wallpapers for void/linux
 
 - Light wallpapers
