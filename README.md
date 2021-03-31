@@ -1,4 +1,4 @@
-a Collection of wallpapers for void/linux
+This repo's contains a collection of wallpapers for void/linux.
 
 - Light wallpapers
 
