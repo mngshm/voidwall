@@ -6,6 +6,7 @@ This repo's contains a collection of wallpapers for void/linux.
 <img src="https://raw.githubusercontent.com/siduck76/voidlinux-wallpapers/main/purple/light-purple.png"> 
 <img src="https://raw.githubusercontent.com/siduck76/voidlinux-wallpapers/main/purple/purpleVoid.jpg">
 
+(credits to Dieggho on deviantart)
 <img src="https://raw.githubusercontent.com/siduck76/voidlinux-wallpapers/main/greenish/green.png">
 <img src="https://raw.githubusercontent.com/siduck76/voidlinux-wallpapers/main/greenish/strips.jpg">
 
