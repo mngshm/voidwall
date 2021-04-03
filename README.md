@@ -1,4 +1,4 @@
-This repo's contains a collection of wallpapers mostly made by me for GNU/Void Linux.
+This repo contains a collection of wallpapers I found or made for Gnu/Void linux.
 
 <img src="https://raw.githubusercontent.com/siduck76/voidlinux-wallpapers/main/light_blue/voidblue.png"> 
 <img src="https://raw.githubusercontent.com/siduck76/voidlinux-wallpapers/main/light_blue/voidfi.png">
