@@ -7,7 +7,6 @@ addImages = (n, path, mainDiv) => {
 
     image.src = `${path}${i}.png`;
     image.classList.add("wall");
-
     mainDiv.appendChild(image);
   }
 };

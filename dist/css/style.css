@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: light;
-  color: #282E3A;
+  color: #c0c0c0;
+  background-color: #151a1e;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,28 +19,92 @@ body {
 
 .heading {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  flex-direction: column;
+  flex-shrink: 1;
 }
 
 h1 {
   text-align: center;
   margin: 0 2rem 2rem 0;
-  padding: 1rem 10rem 1rem 10rem;
-  border-bottom: 2px solid #282E3A;
-
+  padding: 1rem 10rem 0rem 10rem;
+  border-bottom: 2px solid #1e2528;
 }
 
+.heading p {
+  color: #c0c0c0;
+  padding: 0rem 0rem 1rem 0rem;
+}
 .wallDiv {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2rem;
-  margin: 5rem;
+  grid-gap: 1rem;
   margin-top: 0rem;
 }
 
 .wall {
   width: 100%;
-  height: 14rem;
+  max-height: 10rem;
   border-radius: 0.3rem;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 20px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1006px) {
+  .wallDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 25vh 20vh 20vh;
+    grid-gap: 1rem;
+    margin: 5rem;
+  }
+  .wall {
+    width: 100%;
+    height: 10rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wallDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: 40vh 30vh 30vh;
+    grid-gap: 1.5rem;
+  }
+  .wall {
+    width: 100%;
+    height: 10rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .wallDiv {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 20vh 20vh 20vh;
+    grid-gap: 1.5rem;
+    margin: 5rem;
+  }
+  .wall {
+    width: 100%;
+    height: 9rem;
+  }
+}
+
+.footer {
+  top: 5%;
+  width: 100%;
+   background-color: #1f2428;
+   color: white;
+   height: 10vh;
+   margin: 15px;
+   text-align: center;
+}
+
+.footer p {
+  margin-top: 20px;
+}
+.footer a {
+  color: #6592b7;
+  text-decoration: none;
 }
