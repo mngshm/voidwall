@@ -1,9 +1,11 @@
-This repo contains a collection of wallpapers I found or made for Gnu/Void linux.<br>
+# Void Wallpapers 
+This is a repository containing all the void linux wallpapers designed by the people around ricer's community.
 
-WIP!! for now this repo has only void walls , I'll soon add tons of distros and their walls in my free time >~<
+# Contributing 
+- Everyone can contribute to this repository by adding the wallpaper. 
+- Just add your wallpaper to `assets` dir.
 
-Credits to 
-@siduck ( Ive made some walls too :p) 
-@mahmoudk1000 
-(made by Dieggho on deviantart)
-@Mangeshrex 
+- Credits to 
+- @siduck (Creator) 
+- @mahmoudk1000 (made by Dieggho on deviantart)
+- @Mangeshrex 
